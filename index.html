@@ -98,7 +98,7 @@
             angular.module('masonryApp', ['wu.masonry']).
                 controller('DemoCtrl', function ($scope) {
                     function genBrick() {
-                        var height = ~~(Math.random() * 500) + 100;
+                        var height = ~~(Math.random() * 5) + 10;
                         var id = ~~(Math.random() * 10000);
                         return {
                             src: 'http://lorempixel.com/g/280/' + height + '/?' + id

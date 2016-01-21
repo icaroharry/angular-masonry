@@ -1,7 +1,7 @@
 {
   "name": "angular-masonry",
   "version": "0.14.1",
-  "main": "angular-masonry.js",
+  "main": "index.js",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "^0.1.13",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "angular": "^1.4.1",
+    "jquery": "~2.1.0",
     "imagesloaded": "^3.1.8",
     "jquery-bridget": "^1.1.0",
     "masonry-layout": "^3.3.0"
